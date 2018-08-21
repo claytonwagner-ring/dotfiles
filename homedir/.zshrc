@@ -54,3 +54,10 @@ unsetopt correct
 
 # run fortune on new terminal :)
 # fortune
+
+# to be able to change ruby versions
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

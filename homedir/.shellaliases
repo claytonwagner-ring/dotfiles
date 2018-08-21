@@ -100,3 +100,8 @@ alias td="todo.sh"
 alias tda="todo.sh add"
 alias tdl="todo.sh list"
 alias tdd="todo.sh do"
+
+# Ring jumphost aliases
+alias ssh-dev="ssh -At claytonwagner@jump-us-east-1.dev.ring.com ssh"
+alias ssh-qa="ssh -At claytonwagner@jump-us-east-1.qa.ring.com ssh"
+alias ssh-prod="ssh -At devops-admins-claytonwagnerringc@jump-us-east-1.ring.com ssh"
