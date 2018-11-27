@@ -180,14 +180,15 @@
 
 [credential]
     # cache creds (git help credential-cache)
-  helper = cache
+	helper = !aws --profile Burner1 codecommit credential-helper $@
+    UseHttpPath = true
 
 [filter "tabspace"]
   clean = expand -t 4
 
 [push]
   default = matching
-	followTags = true
+    followTags = true
 
 [filter "media"]
   required = true
@@ -198,3 +199,5 @@
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
   required = true
+[http]
+	sslVerify = true
