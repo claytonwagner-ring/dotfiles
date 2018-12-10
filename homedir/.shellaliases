@@ -103,7 +103,11 @@ alias tdd="todo.sh do"
 
 # Ring jumphost aliases
 alias ssh-dev="ssh -At claytonwagner@jump-us-east-1.dev.ring.com ssh"
+alias ssh-jump-dev="ssh -At claytonwagner@jump-us-east-1.dev.ring.com"
 alias ssh-qa="ssh -At claytonwagner@jump-us-east-1.qa.ring.com ssh"
+alias ssh-jump-qa="ssh -At claytonwagner@jump-us-east-1.qa.ring.com"
 alias ssh-prod="ssh -At devops-admins-claytonwagnerringc@jump-us-east-1.ring.com ssh"
+alias ssh-jump-prod="ssh -At devops-admins-claytonwagnerringc@jump-us-east-1.ring.com"
 alias ssh-ansible-prod="ssh clayton@do-ansible-00.ring.com"
+alias ssh-ansible-nonprod="ssh -At claytonwagner@jump.us-east-1.dev.ring.com ssh 172.30.3.47"
 alias ssh-corp="ssh -At devops-admins-claytonwagnerringc@ec2-34-229-89-80.compute-1.amazonaws.com"
